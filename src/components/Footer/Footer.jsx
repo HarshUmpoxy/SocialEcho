@@ -21,7 +21,8 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="text-gray-900 hover:text-gray-700"
                         >
-                            <img src='https://cdn-icons-png.flaticon.com/256/174/174857.png'/>
+                            <img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F317750%2Flinkedin_icon&psig=AOvVaw3_5uhtXUeEQDJ9oo-ibuHQ&ust=1702214588084000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCPiwmdC5goMDFQAAAAAdAAAAABAj'
+                            className="h-12 w-12 rounded-xl"/>
                         </a>
                         <a
                             href="https://twitter.com/HarshUmpoxy"
@@ -29,7 +30,8 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="text-gray-900 hover:text-gray-700"
                         >
-                            <img src='https://c-billt.com/wp-content/uploads/2019/08/twitter-logo-png-twitter-logo-vector-png-clipart-library-518.png'/>
+                            <img src='https://c-billt.com/wp-content/uploads/2019/08/twitter-logo-png-twitter-logo-vector-png-clipart-library-518.png'
+                            className="h-12 w-12 rounded-xl"/>
                         </a>
                         <a 
                             href="https://github.com/HarshUmpoxy/"
@@ -37,7 +39,8 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="text-gray-900 hover:text-gray-700"
                         >
-                            <img src='https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png'/>
+                            <img src='https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png'
+                            className='h-12 w-12 rounded-xl'/>
                         </a>
                     </div>
                 </div>
