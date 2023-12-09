@@ -21,7 +21,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="text-gray-900 hover:text-gray-700"
                         >
-                            <img src='https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png'
+                            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&usqp=CAU'
                             className="h-12 w-12 rounded-xl"/>
                         </a>
                         <a

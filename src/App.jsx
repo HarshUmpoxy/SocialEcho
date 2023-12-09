@@ -27,29 +27,31 @@ function App() {
   }, []);
 
   return (
-      <div className="min-h-screen flex flex-wrap content-between bg-gradient-to-b from-blue-800 via-blue-500 to-blue-700 text-white ">
-        <div className="w-full block">
-          <Header />
-          <main className="p-4 flex-grow">
-            {loading ? (
-              <div className="animate-pulse">
-                <div className="bg-red-300 h-4 w-1/3 mb-4"></div>
-                <div className="bg-red-400 h-4 w-1/2 mb-4"></div>
-                <div className="bg-red-500 h-4 w-3/4 mb-4"></div>
-                <div className="bg-red-600 h-4 w-5/6 mb-4"></div>
-                
-              </div>
-            ) : (
-              <Outlet />
-            )}
-          </main>
-          <footer className="py-10 bg-gradient-to-r from-red to-light-blue border border-t-2 border-t-black">
-            <div className="mx-auto max-w-7xl px-4">
-              <Footer/>
-            </div>
-          </footer>
-        </div>
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-blue-800 via-blue-500 to-blue-700 text-white">
+    <div className="flex-col flex-1">
+      <nav className="py-2 bg-gradient-to-r from-red to-light-blue border-b-2 border-t-black px-4">
+        <Header />
+      </nav>
+      <main className="p-4 flex-grow">
+        {loading ? (
+          <div className="animate-pulse">
+            <div className="bg-yellow-300 h-4 w-1/3 mb-4"></div>
+            <div className="bg-yellow-400 h-4 w-1/2 mb-4"></div>
+            <div className="bg-yellow-500 h-4 w-3/4 mb-4"></div>
+            <div className="bg-yellow-600 h-4 w-5/6 mb-4"></div>
+          </div>
+        ) : (
+          <Outlet />
+        )}
+      </main>
     </div>
+    <footer className="py-4 bg-gradient-to-r from-red to-light-blue border-t-2 border-t-black">
+      <div className="mx-auto max-w-7xl px-4">
+        <Footer />
+      </div>
+    </footer>
+  </div>
+  
 )
 }
 
