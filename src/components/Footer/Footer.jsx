@@ -37,7 +37,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="text-gray-900 hover:text-gray-700"
                         >
-                            <img src='./src/assets/github.png'/>
+                            <img src='\src\assets\github.png'/>
                         </a>
                     </div>
                 </div>
