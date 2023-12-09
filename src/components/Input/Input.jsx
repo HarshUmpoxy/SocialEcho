@@ -14,13 +14,13 @@ const Input = React.forwardRef(function Input(
         <div className="form-control w-full max-w-xs">
       {label && (
         <label className="label">
-          <span className="label-text capitalize">{label}</span>
+          <span className="label-text capitalize text-black">{label}</span>
         </label>
       )}
       <input
         type={type}
         placeholder="Type here"
-        className={`input input-bordered w-full max-w-xs ${className}`}
+        className={`text-black input input-bordered w-full max-w-xs ${className}`}
         ref={ref}
         {...props}
         id = {id}

@@ -21,7 +21,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="text-gray-900 hover:text-gray-700"
                         >
-                            <img src='../src/assets/linkedin.png'/>
+                            <img src='/src/assets/linkedin.png'/>
                         </a>
                         <a
                             href="https://twitter.com/HarshUmpoxy"
@@ -29,7 +29,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="text-gray-900 hover:text-gray-700"
                         >
-                            <img src='../src/assets/twitter.jpg'/>
+                            <img src='/src/assets/twitter.jpg'/>
                         </a>
                         <a 
                             href="https://github.com/HarshUmpoxy/"
@@ -37,7 +37,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="text-gray-900 hover:text-gray-700"
                         >
-                            <img src='../src/assets/github.png'/>
+                            <img src='/src/assets/github.png'/>
                         </a>
                     </div>
                 </div>
