@@ -21,7 +21,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="text-gray-900 hover:text-gray-700"
                         >
-                            <img src='./src/assets/linkedin.png'/>
+                            <img src='https://cdn-icons-png.flaticon.com/256/174/174857.png'/>
                         </a>
                         <a
                             href="https://twitter.com/HarshUmpoxy"
@@ -29,7 +29,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="text-gray-900 hover:text-gray-700"
                         >
-                            <img src='./src/assets/twitter.jpg'/>
+                            <img src='https://c-billt.com/wp-content/uploads/2019/08/twitter-logo-png-twitter-logo-vector-png-clipart-library-518.png'/>
                         </a>
                         <a 
                             href="https://github.com/HarshUmpoxy/"
@@ -37,7 +37,7 @@ function Footer() {
                             rel="noopener noreferrer"
                             className="text-gray-900 hover:text-gray-700"
                         >
-                            <img src='\src\assets\github.png'/>
+                            <img src='https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png'/>
                         </a>
                     </div>
                 </div>
