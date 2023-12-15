@@ -30,7 +30,7 @@ function App() {
       <div className="min-h-screen flex flex-wrap content-between bg-gradient-to-b from-blue-800 via-blue-500 to-blue-700 text-white ">
         <div className="w-full flex flex-grow flex-wrap">
           <Header />
-          <main className="p-4 flex-grow">
+          <main className="p-4 flex-grow px-10">
             {loading ? (
               <div className="animate-pulse">
                 <div className="bg-red-300 h-4 w-1/3 mb-4"></div>
@@ -43,7 +43,7 @@ function App() {
               <Outlet />
             )}
           </main>
-          <footer className="py-10 bg-gradient-to-r from-red to-light-blue border border-t-2 border-t-black">
+          <footer className="py-10 bg-gradient-to-r from-red to-light-blue border border-t-2 border-t-black fixed bottom-2">
             <div className="mx-auto max-w-7xl px-4">
               <Footer/>
             </div>
