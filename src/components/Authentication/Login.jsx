@@ -5,7 +5,7 @@ import {login as authLogin} from '../../store/authSlice'
 import authService from '../../appwrite/auth'
 import {Button, Input} from '../index'
 import { useDispatch } from 'react-redux'
-
+import {Logo} from '../index'
 
 function Login() {
 
@@ -31,7 +31,7 @@ function Login() {
     }
     return (
         <div
-        className='flex items-center justify-center mt-8 w-full'
+        className='flex items-center justify-center w-full'
         >
             <div className={`mx-auto w-full max-w-lg bg-gray-500 rounded-xl p-10 border border-black/10`}>
             <div className="mb-2 flex justify-center">
