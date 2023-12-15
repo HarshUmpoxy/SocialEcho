@@ -27,11 +27,14 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-b from-blue-800 via-blue-500 to-blue-700 text-white">
-    <div className="flex-col flex-1">
-      <nav className="py-2 bg-gradient-to-r from-red to-light-blue border-b-2 border-t-black px-4">
-        <Header />
-      </nav>
+    <div className="min-h-screen flex flex-wrap content-between 
+    bg-gradient-to-b from-blue-800 via-blue-500 to-blue-700 text-white">
+    <nav className="py-2 w-full block border-b-2 border-t-black px-4
+    bg-gradient-to-r from-red to-light-blue ">
+      <Header />
+    </nav>
+    <div>
+      
       <main className="p-4 flex-grow">
         {loading ? (
           <div className="animate-pulse">
@@ -46,7 +49,7 @@ function App() {
       </main>
     </div>
     <footer className="py-4 bg-gradient-to-r from-red to-light-blue border-t-2 border-t-black">
-      <div className="mx-auto max-w-7xl px-4">
+      <div className="mx-auto px-4">
         <Footer />
       </div>
     </footer>
