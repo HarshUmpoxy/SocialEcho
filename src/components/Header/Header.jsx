@@ -39,38 +39,38 @@ function Header() {
   ]
 
   return (
-    <header className="relative w-full py-3 shadow">
-    <Container>
-      <div className='flex'>
-        <Link to='/'>
-          <Logo width='70px'/>
-        </Link>
-      </div>
-      <ul className='flex ml-auto'>
-        {navItems.map((item) => 
-        item.active ? (
-          <li key={item.name}>
-            <button
-            onClick={()=> navigate(item.slug)}
-            className='inline-block px-6 py-2 duration-200 hover:bg-blue-100 rounded-full'>
-              {item.name}
-            </button>
-          </li>
-        )
-        :null
-        )}
-        {/* Displaying Logout Button  */}
-        {
-          authStatus && (
+    <header className="relative w-full py-3 pt-5 shadow">
+      <Container>
+        <div className='flex justify-around'>
+        <div className='flex'>
+          <Link to='/'>
+            <Logo width='70px'/>
+          </Link>
+        </div>
+        <ul className='flex ml-auto'>
+          {navItems.map((item) => 
+            item.active ? (
+              <li key={item.name}>
+                <button
+                  onClick={() => navigate(item.slug)}
+                  className='inline-block px-6 py-2 duration-200 hover:bg-blue-100 rounded-full'
+                >
+                  {item.name}
+                </button>
+              </li>
+            ) : null
+          )}
+          {/* Displaying Logout Button  */}
+          {authStatus && (
             <li>
-              <LogoutBtn/>
+              <LogoutBtn />
             </li>
-          )
-        }
-      </ul>
-    </Container>
+          )}
+        </ul>
+        </div>
+      </Container>
     </header>
-  )
+  );
 }
 
 export default Header

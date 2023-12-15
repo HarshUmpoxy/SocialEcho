@@ -11,19 +11,19 @@
         background-image: url('./src/assets/bgimg.jpg');
         background-size: cover; /* Adjusts the size of the background image */
         background-position: center; /* Centers the background image */
-        background-repeat: no-repeat; /* Prevents the background image from repeating */
+        background-repeat: repeat-y; /* Prevents the background image from repeating */
         margin: 0; /* Remove default body margin */
         overflow: hidden; /* Hide overflowing content */
       }
   
       #root {
-        width: 100vw;
-        height: 100vh;
+        min-width: 100vw;
+        min-height: 100vh;
       }
     </style>
   </head>
   <body>
-    <div id="root" style="width:100vw; height:100vh;"></div>
+    <div id="root" style="min-width:100vw; min-height:100vh;"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

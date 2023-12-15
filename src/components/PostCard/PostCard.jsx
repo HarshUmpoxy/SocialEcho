@@ -53,7 +53,7 @@ export default function PostCard({$id, title, featuredImage}) {
 
             </div>
             <h2
-            className='text-xl font-bold'
+            className='text-xl font-bold text-black'
             >{title}</h2>
         </div>
     </Link>
