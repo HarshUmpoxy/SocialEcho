@@ -28,7 +28,7 @@ function App() {
 
   return (
       <div className="min-h-screen flex flex-wrap content-between bg-gradient-to-b from-blue-800 via-blue-500 to-blue-700 text-white ">
-        <div className="w-full block">
+        <div className="w-full flex flex-grow flex-wrap">
           <Header />
           <main className="p-4 flex-grow">
             {loading ? (
